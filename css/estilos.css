@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+/* font-family: 'Kalam', cursive; */
+/* font-family: 'Cormorant Garamond', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  
+}
+
+body {
+  font-family: "kalam", cursive;
+  background-color: rgb(243, 233, 148);
+}
+/* SECCION INICIO */
+.container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+  display: block;
+  font-weight: 600;
+}
+
+.container img {
+  width: 150px;
+  height: 15 0px;
+}
+.header-texto h1 {
+  font-family: "Cormorant Garamond", serif;
+  color: black;
+  font-size: 70px;
+  line-height: 80px;
+  margin-bottom: 35px;
+}
+
+.header-texto p {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 35px;
+}
+
+.boton-1 {
+  display: inline-block;
+  padding: 13px 25px;
+  background-color: #0bf50b;
+  color: black;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.header-content {
+  display: flex;
+}
+
+.header-texto {
+  width: 50%;
+}
+
+.header-img {
+  width: 50%;
+  text-align: right;
+}
+
+.header-img img {
+  width: 300px;
+  height: 300px;
+}
+/* FIN SECCION INICIO */
+
+
+
+/**INICIO SECCION VOTA YA**/
+
+.contenedor-2 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fd0202;
+}
+
+.contenedor-2_titulo {
+  text-decoration: underline;
+  font-size: 48px;
+}
+
+.contenedor-2_alfajor {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.alfajor {
+  background-color: aqua;
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.alfajor h3 {
+  font-size: 32px;
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+.alfajor img {
+  object-fit: cover;
+  width: 50%;
+}
+
+.alfajor p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.alfajor a {
+  background-color: blue;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* FIN DE SECCION VOTA YA*/
+
+/* INICIO SECCION NOSOTROS */
+.contenedor {
+  margin: auto;
+  width: 70%;
+  height: 110vh;
+}
+
+.seccion_3 {
+  font-size: 50px;
+  width: 80%;
+  background-color: #fcfcf8;
+  margin: auto;
+  padding: 100px 0;
+}
+.titulo-3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.seccion-grande {
+  display: flex;
+}
+.seccion-texto {
+  width: 60%;
+  padding: 0 10% 0 0;
+}
+.parrafo-seccion-grande {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  color: rgb(26, 16, 16);
+  text-align: justify;
+}
+
+.seccion-redes-sociales {
+  margin: 20px 0;
+}
+
+.iconos-redes-sociales {
+  margin: 20px 0;
+}
+
+.img-seccion-grande {
+  width: 40%;
+}
+.img-img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+/* FIN SECCION NOSOTROS*/
+
+/* INICIO SECCION CONTACTO  */
+.rs {
+  width: 100%;
+  height: 150vh;
+  background-color: #ecddb4;
+  text-align: center;
+  font-size: 50px;
+}
+
+.contenido-redes {
+  margin-top: 25%;
+  justify-content: space-between;
+}
+
+/* FIN SECCION CONTACTO */
+
+/* INICIO SECCION VIDEOS */
+.videos {
+  background-color: rgb(243, 233, 148);
+
+  text-align: center;
+  text-decoration: underline red;
+  margin: 0 5px;
+}
+.videos h2 {
+  font-size: 30px;
+  color: rgb(8, 1, 1);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px 5px 20px 0;
+}
+.contenedor-todos-videos {
+  height: auto;
+
+  margin: 5px;
+}
+
+/* FIN SECCION VIDEOS */
+/* INICIO SECCION FORMULARIO  */
+.contenedor-formulario {
+  margin: 0;
+  padding: 0;
+  background: url(../images/logo.webp) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: #0f1101;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}
+
+/* FIN SECCION FORMULARIO */
+
+
+/* INICIO SECCION FOOTER */
+
+.footer {
+  background-color: black;
+  padding: 2em 0;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+}
+
+.copyright {
+  color: #ffffff;
+}
+/* FIN SECCION FOOTER */
+
+
